@@ -19,19 +19,22 @@ You built the Instagram kind of application. There are three tables in this data
 
 
 ### Task 1
-Return the posts with its authors name and the number of comments. The order of contents should be descending by the created time.
+Return the posts with its authors name. The order of contents should be descending by the post's created time.
 ### Task 2
 The marketing manager wants you to provide the monthly statistics of your application.
 - Return the number of posts per months, and the order should be descending by the created time.
 
 ### Task 3
-You added the `p_created_time` field later, therefore, early posts have missed `p_created_time` value. Fill up this field using `p_created_timestamp`.
+You added the `u_created_time` field later, therefore, early users are missing `u_created_time` value. Fill up this field using `u_created_timestamp`.
 
 ### Task 4
 You forgot to create the `likes` tables. Build a `likes` table corresponding to the posts table.
 
 ### Task 5
-You want to develop a notification function. The notification will be sent when someone post or comment (regardless of whose content is). Return the posts and comments together with its `created_time` descending order.
+Return the posts with its authors name and the number of comments. The order of contents should be descending by the number of comments. (It should be able to show the posts have no comments as well.)
 
 ### Task 6
+You want to develop a notification function. The notification will be sent when someone post or comment (regardless of whose content is). Return the posts and comments together with its `created_time` descending order.
+
+### Task 7
 You want to add your own feature to be different with Instagram. You want to show users in the order of posts close to the user's distance. Return the posts for `u_id = "3"` with posts' distance.
