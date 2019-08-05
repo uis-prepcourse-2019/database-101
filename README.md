@@ -19,6 +19,8 @@ You built the Instagram kind of application. There are three tables in the datab
 
 Complete the below tasks using a single query (one-time execution).
 
+### Task 0
+Import `group-task.sql` into your database and set up the dataset.
 
 
 ### Task 1
