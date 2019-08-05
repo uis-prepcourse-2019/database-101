@@ -90,6 +90,7 @@ You want to add your own feature to be different from Instagram. You want to sho
 
 **hint**
 Law of cosines:	d = R*acos( cos φ1 ⋅ cos φ2 ⋅ cos Δλ + sin φ1 ⋅ sin φ2)
+where φ = latitude, λ = longitude, Δλ = λ2-λ1, R = 6371.
 
 Sample Output
 ```
