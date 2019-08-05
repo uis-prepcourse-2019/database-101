@@ -4,7 +4,6 @@ This is the course materials for Database 101 in UiS.
 
 ## Prerequisite
 - Knowing basic query in MySQL.
-- Understanding the logic between application and database
 
 ## Requirement
 - UiS Linux server with MySQL
@@ -24,7 +23,7 @@ Import `group-task.sql` into your database and set up the dataset.
 
 
 ### Task 1
-Return the posts, including its author's name. It should be descending order by the post's created time.
+Return the posts, including their user's name. It should be descending order by the post's created time.
 
 Sample Output
 ```
