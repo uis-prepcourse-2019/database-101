@@ -89,8 +89,7 @@ Sample Output
 You want to add your own feature to be different from Instagram. You want to show users in the order of posts close to the user's distance. Return the posts from `latitude=67.157, longitude=7.4002` where distance is less than 1,000km.
 
 **hint**
-Law of cosines:	d = R*acos( cos φ1 ⋅ cos φ2 ⋅ cos Δλ + sin φ1 ⋅ sin φ2)
-where φ = latitude, λ = longitude, Δλ = λ2-λ1, R = 6371.
+Law of cosines:	d = R*acos( cos φ1 ⋅ cos φ2 ⋅ cos Δλ + sin φ1 ⋅ sin φ2), where φ = latitude, λ = longitude, Δλ = λ2-λ1, R = 6371.
 
 Sample Output
 ```
