@@ -25,14 +25,13 @@ Complete the below tasks using a single query (one-time execution).
 Return the posts, including its author's name. It should be descending order by the post's created time.
 
 Sample Output
-
-| p_id | p_title | p_content | p_u_id | p_created_time | p_created_timestamp| p_latitude | p_longitude | u_name|
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 159 | Zadok Rabinowitz | A man's dreams are an index to his greatness. | 4 | 2019-01-21 20:41:23 | 1548099683 | -87.9016 | -96.2723 | sadcat660 |
-| 334 | Confucius | What you do not want done to yourself, do not do to others. | 8 | 2019-01-25 13:15:32 | 1548418532 | -17.011499999999998 | 88.5789 | crazyelephant206 |
-| 418 | Mary Almanac | Who we are never changes. Who we think we are does. | 6 | 2019-01-26 13:55:04 | 1548507304 | 32.0418	-| 155.908 | silverzebra412 |
-| 350 | William Shakespeare | It is not in the stars to hold our destiny but in ourselves. | 10 | 2019-01-26 13:56:53 | 	1548507413 | 17.7112 | 155.637 | silverfish931 |
-
+```
+159	Zadok Rabinowitz	A man's dreams are an index to his greatness.	4	2019-01-21 20:41:23	1548099683	-87.9016	-96.2723	sadcat660
+334	Confucius	What you do not want done to yourself, do not do to others.	8	2019-01-25 13:15:32	1548418532	-17.011499999999998	88.5789	crazyelephant206
+418	Mary Almanac	Who we are never changes. Who we think we are does.	6	2019-01-26 13:55:04	1548507304	32.0418	-155.908	silverzebra412
+350	William Shakespeare	It is not in the stars to hold our destiny but in ourselves.	10	2019-01-26 13:56:53	1548507413	17.7112	155.637	silverfish931
+...
+```
 
 ### Task 2
 The marketing manager wants you to provide the monthly statistics of your application. Return the number of posts per months, and it should be descending order by the month.
