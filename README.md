@@ -35,6 +35,8 @@ Sample Output
 
 ### Task 2
 The marketing manager wants you to provide the monthly statistics of your application. Return the number of posts per months, and it should be descending order by the month.
+
+Sample Output
 ```
 8	20
 7	77
@@ -53,6 +55,8 @@ You forgot to create the `likes` table. Build a `likes` table.
 
 ### Task 5
 (extended from task1) Return the posts with their author's name and the number of comments. The order of contents should be descending by the number of comments. (It should be able to show the posts have no comments as well.)
+
+Sample Output
 ```
 159	Zadok Rabinowitz	A man's dreams are an index to his greatness.	4	2019-01-21 20:41:23	1548099683	-87.9016	-96.2723	sadcat660	0
 334	Confucius	What you do not want done to yourself, do not do to others.	8	2019-01-25 13:15:32	1548418532	-17.011499999999998	88.5789	crazyelephant206	1
@@ -62,6 +66,8 @@ You forgot to create the `likes` table. Build a `likes` table.
 ```
 ### Task 6
 You want to develop a notification function. The notification will be sent when someone post or comment (regardless of whose content is). Return the posts and comments together with its `created_time` descending order.
+
+Sample Output
 ```
 154	It is easier to live through someone else than to become complete yourself.	2019-08-20 04:16:07	3	lazyduck547	comment
 286	Cherish your visions and your dreams as they are the children of your soul, the blueprints of your ultimate achievements.	2019-08-18 07:28:12	32	purpleswan939	comment
@@ -80,6 +86,8 @@ You want to develop a notification function. The notification will be sent when 
 ```
 ### Task 7
 You want to add your own feature to be different from Instagram. You want to show users in the order of posts close to the user's distance. Return the posts from `latitude=67.157, longitude=7.4002` where distance is less than 1,000km.
+
+Sample Output
 ```
 343	Richard Bach	If you love someone, set them free. If they come back they're yours; if they don't they never were.	127	2019-05-26 09:35:33	1558856133	66.5775	7.354100000000001	64.46891679964803
 90	Lao Tzu	He who talks more is sooner exhausted.	57	2019-03-19 06:46:42	1552974402	68.1608	3.5324	197.89707500577046
