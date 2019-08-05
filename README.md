@@ -32,7 +32,7 @@ Sample Output
 | 334 | Confucius | What you do not want done to yourself, do not do to others. | 8 | 2019-01-25 13:15:32 | 1548418532 | -17.011499999999998 | 88.5789 | crazyelephant206 |
 | 418 | Mary Almanac | Who we are never changes. Who we think we are does. | 6 | 2019-01-26 13:55:04 | 1548507304 | 32.0418	-| 155.908 | silverzebra412 |
 | 350 | William Shakespeare | It is not in the stars to hold our destiny but in ourselves. | 10 | 2019-01-26 13:56:53 | 	1548507413 | 17.7112 | 155.637 | silverfish931 |
-```
+
 
 ### Task 2
 The marketing manager wants you to provide the monthly statistics of your application. Return the number of posts per months, and it should be descending order by the month.
