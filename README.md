@@ -11,10 +11,10 @@ This is the course materials for Database 101 in UiS.
 ## Tasks
 
 You built the Instagram kind of application. There are three tables in the database (one is not created yet).
-- *users*: u_id, u_name, u_email, u_created_time, u_created_timestamp, u_latitude, u_longitude
-- *posts*: p_id, p_title, p_content, p_u_id, p_created_time, p_created_timestamp, p_latitude, p_longitude
-- *comments*: c_id, c_p_id, c_u_id, comment, c_created_time, c_created_timestamp
-- *likes* (not created yet): l_id, l_p_id, l_u_id, l_created_time, l_created_timestamp
+- **users**: u_id, u_name, u_email, u_created_time, u_created_timestamp, u_latitude, u_longitude
+- **posts**: p_id, p_title, p_content, p_u_id, p_created_time, p_created_timestamp, p_latitude, p_longitude
+- **comments**: c_id, c_p_id, c_u_id, comment, c_created_time, c_created_timestamp
+- **likes** (not created yet): l_id, l_p_id, l_u_id, l_created_time, l_created_timestamp
 
 Complete the below tasks using a single query (one-time execution).
 
@@ -88,7 +88,7 @@ Sample Output
 ### Task 7
 You want to add your own feature to be different from Instagram. You want to show users in the order of posts close to the user's distance. Return the posts from `latitude=67.157, longitude=7.4002` where distance is less than 1,000km.
 
-*hint*
+**hint**
 Law of cosines:	d = R*acos( cos φ1 ⋅ cos φ2 ⋅ cos Δλ + sin φ1 ⋅ sin φ2)
 
 Sample Output
