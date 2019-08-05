@@ -88,6 +88,9 @@ Sample Output
 ### Task 7
 You want to add your own feature to be different from Instagram. You want to show users in the order of posts close to the user's distance. Return the posts from `latitude=67.157, longitude=7.4002` where distance is less than 1,000km.
 
+*hint*
+Law of cosines:	d =6371 \cdot  \arccos(\cos(\text{lat1})\cdot \cos(\text{lat2})\cdot \cos(\text{lng2}-\text{lng1})+\sin(\text{lat1})\cdot \sin(\text{lat2})))
+
 Sample Output
 ```
 343	Richard Bach	If you love someone, set them free. If they come back they're yours; if they don't they never were.	127	2019-05-26 09:35:33	1558856133	66.5775	7.354100000000001	64.46891679964803
