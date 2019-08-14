@@ -23,7 +23,7 @@ Import `group-task.sql` into your database and set up the dataset.
 
 
 ### Task 1
-Return the posts, including their user's name. It should be descending order by the post's created time.
+Return the posts, including their user's name. It should be ascending order by the post's created time.
 
 Sample Output
 ```
